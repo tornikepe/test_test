@@ -1,0 +1,28 @@
+#main {
+  position: relative;
+  border: 1px solid #ff0000;
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #747474;
+  padding: 10px;
+}
+
+.boxes > div {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+.box {
+  width: 80px;
+  height: 30px;
+  background-color: aqua;
+  cursor: pointer;
+}
